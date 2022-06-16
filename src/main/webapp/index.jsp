@@ -4,15 +4,12 @@
 </head>
 <body>
 	<h1>Bonjour !</h1>
-	<p>
-		It is now
-		<%= new java.util.Date() %></p>
-	<p>
-		You are coming from 
+	
+		Connexion depuis 
 		<%= request.getRemoteAddr()  %></p>
 
-	<p><a href='./page1.jsp'>Vers la page 1</a></p>
-	<p><a href='./page2.jsp'>Vers la page 2</a></p>
+	<p><a href='./lien1.jsp'>Vers le lien 1</a></p>
+	<p><a href='./Lien2.jsp'>Vers le lien 2</a></p>
 
 
 </body>
